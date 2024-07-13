@@ -13,6 +13,17 @@ a {
     color: #161616;
 }
 
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
 h1,
 h2,
 h3,
@@ -20,22 +31,6 @@ h4,
 h5,
 h6 {
     font-family: var(--font-family-title);
-}
-
-.visually-hidden {
-    display: none;
-}
-
-.card-category {
-    color: #D73953;
-}
-
-.section-tagline {
-    color: #D73953;
-}
-
-.section-tagline {
-    --color: var(--color-primary);
 }
 
 :root {

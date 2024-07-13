@@ -9,6 +9,10 @@ body {
     font-size: var(--font-size-medium);
 }
 
+a {
+    color: #161616;
+}
+
 h1,
 h2,
 h3,
@@ -16,10 +20,6 @@ h4,
 h5,
 h6 {
     font-family: var(--font-family-title);
-}
-
-a {
-    color: #161616;
 }
 
 .visually-hidden {
@@ -34,14 +34,8 @@ a {
     color: #D73953;
 }
 
-.section-tagline,
-.card-category {
+.section-tagline {
     --color: var(--color-primary);
-}
-
-body,
-a {
-    color: var(--text-color);
 }
 
 :root {

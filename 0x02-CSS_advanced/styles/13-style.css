@@ -16,7 +16,21 @@ a {
     color: #161616;
     text-decoration: none;
 }
+a :link {
+    text-decoration: none;
+}
 
+a :visited {
+    font-style: italic;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+a :active {
+    background-color: var(--color-light-grey);
+}
 .visually-hidden {
     display: none;
 }
@@ -72,16 +86,4 @@ h1 h2 h3 h4 h5 h6 {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-}
-.a :link {
-    text-decoration: none;
-}
-.a :visited {
-    font-style: italic;
-}
-.a :hover {
-    text-decoration: underline;
-}
-.a :active {
-    background-color: var(--color-light-grey);
 }

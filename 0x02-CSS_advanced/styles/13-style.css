@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 a:link {
-    color: var(--text-color);
+    /* color: var(--text-color); */
     text-decoration: none;
 }
 

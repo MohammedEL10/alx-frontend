@@ -7,8 +7,8 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font: var(--font-weight-regular) bold;
-    height: var(--line-height-base);
+    font: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 
 a {
@@ -23,14 +23,11 @@ a {
 .card-category {
     color: var(--color-primary);
 }
-.section-header {
+.section-header{
     text-align: var(--section-header-align);
 }
 .section-tagline {
     color: var(--color-primary);
-}
-.section-header-align {
-    --section-header-align: center;
 }
 
 h1 h2 h3 h4 h5 h6 {
@@ -57,4 +54,5 @@ h1 h2 h3 h4 h5 h6 {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
 }

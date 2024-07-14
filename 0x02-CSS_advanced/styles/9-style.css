@@ -7,8 +7,8 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font: var(--font-weight-regular) bold;
-    height: var(--line-height-base);
+    font: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 
 a {

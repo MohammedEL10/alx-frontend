@@ -73,15 +73,15 @@ h1 h2 h3 h4 h5 h6 {
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }
-a :link {
+.a :link {
     text-decoration: none;
 }
-a :visited {
+.a :visited {
     font-style: italic;
 }
-a :hover {
+.a :hover {
     text-decoration: underline;
 }
-a :active {
+.a :active {
     background-color: var(--color-light-grey);
 }

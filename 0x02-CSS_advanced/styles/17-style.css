@@ -427,19 +427,24 @@ a:active {
 .card-category {
     color: var(--color-primary);
 }
+
 .section {
     padding: var(--section-padding);
 }
+
 .section-header {
     padding: var(--section-header-padding);
 }
+
 .section-body {
     padding: var(--section-body-padding);
 }
+
 .section footer {
     text-align: var(--section-footer-align);
     padding: var(--section-footer-padding);
 }
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -465,9 +470,11 @@ h1 h2 h3 h4 h5 h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
+
 .footer {
     padding: var(--footer-padding);
 }
+
 :root {
     --color-primary: #D73953;
     --color-black: #090909;

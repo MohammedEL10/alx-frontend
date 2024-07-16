@@ -440,7 +440,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: var(--root-element) /2 var(--root-element)
+    padding: 0.5 rem 1rem
 }
 
 .nav .nav-link:hover {

@@ -419,7 +419,33 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
+.navbar-menu {
+    float: right;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
 
+.nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+    display: block;
+    padding: var(--root-element) /2 var(--root-element)
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
 .visually-hidden {
     display: none;
 }
@@ -476,32 +502,7 @@ h1 h2 h3 h4 h5 h6 {
 .footer {
     padding: var(--footer-padding);
 }
-.navbar-menu {
-    float: right;
-}
-nav {
-    margin: 0;
-    padding: 0;
-}
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-.nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-}
-.nav-link {
-    display: block;
-    padding: var(--root-element) /2 var(--root-element)
-}
-.nav-link:hover {
-    color: var(--nav-item-link-hover, color-primary);
-}
+
 :root {
     --color-primary: #D73953;
     --color-black: #090909;

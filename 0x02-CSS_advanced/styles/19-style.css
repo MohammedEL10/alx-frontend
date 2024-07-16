@@ -503,6 +503,10 @@ h1 h2 h3 h4 h5 h6 {
     font-weight: var(--font-weight-bold);
 }
 
+.footer {
+    padding: var(--footer-padding);
+}
+
 .row ul {
     margin: 0;
     padding: 0;
@@ -529,10 +533,6 @@ h1 h2 h3 h4 h5 h6 {
 
 .footer ul {
     text-align: right;
-}
-
-.footer {
-    padding: var(--footer-padding);
 }
 
 :root {
